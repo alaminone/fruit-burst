@@ -74,9 +74,9 @@
                 </h3>
             </div>
         </div>
-        <div class="navbar-end hidden lg:flex">
+        <div class="navbar-end hidden lg:flex relative">
             <input type="text" placeholder="Search here " class="input input-bordered input-sm w-full max-w-xs rounded-full mr-3" />
-            <span class=""><i class="fa-solid fa-magnifying-glass"></i></span>
+            <span class="absolute right-6"><i class="fa-solid fa-magnifying-glass"></i></span>
 
         </div>
       </div>
@@ -88,7 +88,7 @@
         <div id="slide1" class="carousel-item relative w-full">
             
             <div class="hero h-auto rounded-xl" style="background-image: url(images/banner1.png);">
-                <div class="hero-overlay bg-opacity-30"></div>
+                <div class="hero-overlay bg-opacity-10"></div>
                 <div class="hero-content text-center text-neutral-content">
                   <div class="max-w-md py-20 mb-2 lg:mb-20">
                     <h1 class="mb-5 text-6xl text-white font-bold">Exotic tastes at your doorstep</h1>
@@ -296,7 +296,7 @@
               <!--  -->
               <div class="card-actions mt-7">
                 <!-- Open the modal using ID.showModal() method -->
-   <button class="text-color-pry" onclick="my_modal_5.showModal()">details</button>
+   <button class="text-color-pry" onclick="my_modal_2.showModal()">details</button>
    <dialog id="my_modal_2" class="modal modal-bottom sm:modal-middle">
      <form method="dialog" class="modal-box">
       <!-- secend time -->
@@ -359,7 +359,7 @@
               <!--  -->
               <div class="card-actions mt-7">
                 <!-- Open the modal using ID.showModal() method -->
-   <button class="text-color-pry" onclick="my_modal_5.showModal()">details</button>
+   <button class="text-color-pry" onclick="my_modal_3.showModal()">details</button>
    <dialog id="my_modal_3" class="modal modal-bottom sm:modal-middle">
      <form method="dialog" class="modal-box">
       <!-- secend time -->
@@ -423,7 +423,7 @@
               <!--  -->
               <div class="card-actions mt-7">
                 <!-- Open the modal using ID.showModal() method -->
-   <button class="text-color-pry" onclick="my_modal_5.showModal()">details</button>
+   <button class="text-color-pry" onclick="my_modal_.showModal()">details</button>
    <dialog id="my_modal_4" class="modal modal-bottom sm:modal-middle">
      <form method="dialog" class="modal-box">
       <!-- secend time -->
@@ -468,8 +468,9 @@
     <!-- Meet the team section -->
    
    <section class="">
-     <div class="mt-20 ">
+     <div class="mt-20 bg-gray-400">
       <div class=" rounded-md" style="background-image: url('./images/team.png'); background-size: cover; background-position: center;">
+      
         <div class="pt-12 mx-">
           <h1 class="mb-5 text-5xl font-bold text-white text-center">Meet the team section</h1>
         <p class="mb-5 text-white text-center">All fruits should be rinsed before eating. This recommendation also applies to produce with rinds or skins that are not eaten. <br> It should be done just before preparing or eating to avoid premature spoilage.</p>
@@ -595,10 +596,10 @@
         <div class="flex-1 space-y-12">
           <div class=" flex gap-3 text-right">
             <div>
-               <h3 class="text-xl font-bold border-b border-gray-500 pb-2">
+               <h3 class="text-xl font-bold border-b border-gray-500 pb-2 text-right">
                 Integrated Supplier
                </h3>
-               <p class="text-sm text-gray-500 mt-2">
+               <p class="text-sm text-gray-500 mt-2 text-right">
                 Management creates value for manufacturers by improving supplier collaboration
                </p>
              </div>
@@ -608,11 +609,11 @@
            </div>
            <div class=" flex gap-3 text-right">
             <div>
-               <h3 class="text-xl font-bold border-b border-gray-500 pb-2">
+               <h3 class="text-xl font-bold border-b border-gray-500 pb-2 text-right">
                 Sustainable Practice
                </h3>
-               <p class="text-sm text-gray-500 mt-2">
-                support ecological, human, and economic health and vitality
+               <p class="text-sm text-gray-500 mt-2 text-right">
+                support ecological, human, and economic health    and vitality
                </p>
              </div>
              <div>
@@ -621,10 +622,10 @@
            </div>
            <div class=" flex gap-3 text-right">
             <div>
-               <h3 class="text-xl font-bold border-b border-gray-500 pb-2">
+               <h3 class="text-xl font-bold border-b border-gray-500 pb-2 text-right">
                 The Benefits Only
                </h3>
-               <p class="text-sm text-gray-500 mt-2">
+               <p class="text-sm text-gray-500 mt-2 text-right">
                 Fruits contain fiber, which can help lower your cholesterol and encourage regular bowel movements.
                </p>
              </div>
