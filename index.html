@@ -42,38 +42,38 @@
 <!-- navbar -->
 
 <nav class="container mx-auto">
-    <div class="navbar bg-color-pry rounded-full py-1">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <label tabindex="0" class="btn btn btn-ghost lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-            </label>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-white">
-                <li><a>Home</a></li>
-                <li><a>About Us</a></li>
-                <li><a>Shop</a></li>
-                <li><a>All Fruits</a></li>
-            </ul>
-          </div>
-          <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1 text-white">
+    <div class="navbar bg-none md:bg-color-pry lg:bg-color-pry rounded-full py-1 flex justify-between">
+      <div class="navbar-start ">
+        <div class="dropdown ">
+          <label tabindex="0" class="btn btn btn-ghost lg:hidden ">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 " fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+          </label>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-white ">
               <li><a>Home</a></li>
               <li><a>About Us</a></li>
               <li><a>Shop</a></li>
               <li><a>All Fruits</a></li>
-            </ul>
+          </ul>
+        </div>
+        <div class="navbar-center hidden lg:flex order-last lg:order-none">
+          <ul class="menu menu-horizontal px-1 text-white">
+            <li><a>Home</a></li>
+            <li><a>About Us</a></li>
+            <li><a>Shop</a></li>
+            <li><a>All Fruits</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="navbar-center flex  order-first lg:order-none">
+          <div>
+              <img class="w-3/4 h-3/4" src="images/logo.png" alt="">
           </div>
-        </div>
-        <div class="navbar-center flex">
-            <div>
-                <img class="w-3/4 h-3/4" src="images/logo.png" alt="">
-            </div>
-            <div>
-                <h3 class="text-white text-4xl font-bold">
-                    Fruit Burst
-                </h3>
-            </div>
-        </div>
+          <div>
+              <h3 class="text-black md:text-white lg:text-white text-4xl font-bold">
+                  Fruit Burst
+              </h3>
+          </div>
+      </div>
         <div class="navbar-end hidden lg:flex relative">
             <input type="text" placeholder="Search here " class="input input-bordered input-sm w-full max-w-xs rounded-full mr-3" />
             <span class="absolute right-6"><i class="fa-solid fa-magnifying-glass"></i></span>
@@ -91,8 +91,8 @@
                 <div class="hero-overlay bg-opacity-40"></div>
                 <div class="hero-content text-center text-neutral-content">
                   <div class="max-w-md py-20 mb-2 lg:mb-20">
-                    <h1 class="mb-5 text-6xl text-white font-bold">Exotic tastes at your doorstep</h1>
-                    <p class="mb-5">We supply highly quality organic products</p>
+                    <h1 class="mb-5 text-4xl md:text-6xl lg:text-6xl text-white font-bold">Exotic tastes at your doorstep</h1>
+                    <p class="mb-5 text-sm">We supply highly quality organic products</p>
                     <button class="bg-color-pry text-white py-3 px-5 text-base rounded-lg font-semibold">Shop Now</button>
                   </div>
                 </div>
@@ -109,8 +109,8 @@
                 <div class="hero-overlay bg-opacity-30"></div>
                 <div class="hero-content text-center text-neutral-content">
                   <div class="max-w-md py-20 mb-2 lg:mb-20">
-                    <h1 class="mb-5 text-6xl text-white font-bold">Exotic tastes at your doorstep</h1>
-                    <p class="mb-5">We supply highly quality organic products</p>
+                    <h1 class="mb-5 text-4xl md:text-6xl lg:text-6xl text-white font-bold">Exotic tastes at your doorstep</h1>
+                    <p class="mb-5 text-sm">We supply highly quality organic products</p>
                     <button class="bg-color-pry text-white py-3 px-5 text-base rounded-lg font-semibold">Shop All</button>
                   </div>
                 </div>
@@ -126,8 +126,8 @@
                 <div class="hero-overlay bg-opacity-30"></div>
                 <div class="hero-content text-center text-neutral-content">
                   <div class="max-w-md py-20 mb-2 lg:mb-20">
-                    <h1 class="mb-5 text-6xl text-white font-bold">Exotic tastes at your doorstep</h1>
-                    <p class="mb-5">We supply highly quality organic products</p>
+                    <h1 class="mb-5 text-4xl md:text-6xl lg:text-6xl text-white font-bold">Exotic tastes at your doorstep</h1>
+                    <p class="mb-5 text-sm">We supply highly quality organic products</p>
                     <button class="bg-color-pry text-white py-3 px-5 text-base rounded-lg font-semibold">Shop All</button>
                   </div>
                 </div>
@@ -143,8 +143,8 @@
                 <div class="hero-overlay bg-opacity-30"></div>
                 <div class="hero-content text-center text-neutral-content">
                   <div class="max-w-md py-20 mb-2 lg:mb-20">
-                    <h1 class="mb-5 text-6xl text-white font-bold">Exotic tastes at your doorstep</h1>
-                    <p class="mb-5">We supply highly quality organic products</p>
+                    <h1 class="mb-5 text-4xl md:text-6xl lg:text-6xl text-white font-bold">Exotic tastes at your doorstep</h1>
+                    <p class="mb-5 text-sm">We supply highly quality organic products</p>
                     <button class="bg-color-pry text-white py-3 px-5 text-base rounded-lg font-semibold">Shop All</button>
                   </div>
                 </div>
@@ -156,7 +156,7 @@
         </div>
       </div>
 </div>
-<div class="bg-white shadow-2xl flex justify-center gap-10 py-10 w-8/12 absolute bottom-12 left-52 rounded-xl hidden lg:flex">
+<div class="bg-white shadow-2xl flex justify-center gap-10 py-10 w-8/12 absolute -bottom-5 left-52 rounded-xl hidden lg:flex">
   <img src="images/fruit1.png" alt="">
   <img src="images/fruit2.png" alt="">
   <img src="images/fruit3.png" alt="">
@@ -168,34 +168,39 @@
 <main class="container mx-auto">
     <!-- Deal of the day -->
     <section class="mt-32">
-        <div class="flex flex-col lg:flex-row justify-between my-16">
+        <div class="flex flex-col lg:flex-row justify-between my-16 ml-5 ">
             <div>
                 <h3 class="text-5xl font-bold ml-3">Deal of the day</h3>
                 <p class="text-gray-500 ml-3 mt-3">Don't delay buy it first countdown is going on</p>
             </div>
-            <div>
+            <div class="mt-8 lg:mt-0">
                 <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
                     <div class="flex flex-col">
                       <span class="countdown font-mono text-5xl">
                         <span style="--value:15;"></span>
+                        <i class="fa-solid fa-ellipsis-vertical text-4xl mt-1 ml-4"></i>
                       </span>
-                      days
+                      days 
+                      
                     </div> 
                     <div class="flex flex-col">
                       <span class="countdown font-mono text-5xl">
                         <span style="--value:10;"></span>
+                        <i class="fa-solid fa-ellipsis-vertical text-4xl mt-1 ml-4"></i>
                       </span>
                       hours
                     </div> 
                     <div class="flex flex-col">
                       <span class="countdown font-mono text-5xl">
                         <span style="--value:24;"></span>
+                        <i class="fa-solid fa-ellipsis-vertical text-4xl mt-1 ml-4"></i>
                       </span>
                       min
                     </div> 
                     <div class="flex flex-col">
                       <span class="countdown font-mono text-5xl">
                         <span style="--value:33;"></span>
+                        
                       </span>
                       sec
                     </div>
@@ -465,13 +470,13 @@
     </section>
     <!-- Meet the team section -->
    
-   <section class="">
+   <section class="mx-5 lg:mx-0">
      <div class="mt-20 bg-gray-400">
       <div class=" rounded-md" style="background-image: url('./images/team.png'); background-size: cover; background-position: center;">
       
         <div class="pt-12 mx-">
           <h1 class="mb-5 text-5xl font-bold text-white text-center">Meet the team section</h1>
-        <p class="mb-5 text-white text-center">All fruits should be rinsed before eating. This recommendation also applies to produce with rinds or skins that are not eaten. <br> It should be done just before preparing or eating to avoid premature spoilage.</p>
+        <p class="mb-5 text-white text-center flex justify-center">All fruits should be rinsed before eating. This recommendation also applies to produce with rinds or skins that are not eaten. <br> It should be done just before preparing or eating to avoid premature spoilage.</p>
         
       <!-- team card -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-12">
